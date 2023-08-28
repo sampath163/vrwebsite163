@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+.logo_size {
+    height: 50px;
+    width: 70px;
+}
+
+
+
+#custom_nav_menu {
+    color: rgb(53, 53, 53);
+    font-family: 'Robo';
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/*BANNER SECTION*/
+
+.banner_section_background_container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png");
+    height: 100vh;
+    background-size: cover;
+    width: 100vw;
+}
+
+.banner_heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.custom_button {
+    width: 130px;
+    height: 45px;
+    color: white;
+    background-color: #1a2137;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.banner_section_model_title {
+    color: #d0b200;
+    font-weight: 800;
+    font-family: "Robo";
+}
+
+.banner_section_model_sub_title {
+    color: black;
+    font-family: "Roboto";
+    font-size: 15px;
+    text-align: left;
+}
+
+.banner_section_model_description {
+    color: #7b8794;
+    text-align: left;
+    font-size: 14px;
+
+}
+
+.banner_section_model_description_h1 {
+    color: black;
+    font-weight: 600;
+}
+
+/* FEATURES SECTION*/
+
+.VR_website_features_section_heading {
+    font-size: 38px;
+}
+
+.VR_website_features_section_card {
+    background-color: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: #e5eaf4;
+}
+
+.VR_website_features_section_card_image {
+    height: 80px;
+    width: 85px;
+}
+
+.VR_website_features_section_card_heading {
+    font-size: 20px;
+    color: #1f2933;
+}
+
+.VR_website_features_section_card_description {
+    color: #7b8794;
+    font-size: 14px;
+}
+
+.span_section {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* VR_images*/
+
+.card {
+    padding: 3px;
+    border-radius: 30px;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
+
+/* VR_video*/
+
+.detailed-view-card-text-container {
+    border-radius: 15px;
+    border-radius: 15px;
+}
+
+.detailed-view-card-heading {
+    font-size: 38px;
+    color: #1f2933;
+    font-family: "Roboto";
+    font-weight: bold;
+
+}
+
+.detailed-view-card-description {
+    color: #7b8794;
+    font-size: 14px;
+    font-family: "roboto";
+
+
+}
+
+
+
+/* CONTACT US SECTION*/
+
+.VR_Website_Contact_Us_Section {
+    background-color: #222b36;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    padding-top: 100px;
+
+}
+
+.VR_Website_Contact_Us_Section_heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.VR_Website_Contact_Us_Section_image {
+    height: 200px;
+    text-align: center;
+}
+
+.VR_Website_Contact_Us_Section_button {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #ffffff;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.VR_Website_Contact_Us_Section_button1 {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #ffffff;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px;
+    text-align: center;
+}
+
+.contact_details {
+    font-weight: bold;
+}
+
+
+/* FOOTER SECTION*/
+
+.bg_vr_website_footer_section {
+    background-color: #19232d;
+    padding: 50px;
+    width: 100vw;
+
+}
+
+.vr_follow_section {
+    height: 45px;
+    width: 50px;
+}
+
+.VR_footer_section_icon {
+    color: #5a7184;
+    font-size: 30px;
+    background-color: #202b36;
+    border-radius: 40px;
+    padding: 15px;
+}
+
+.VR_footer_section_icon1 {
+    color: #5a7184;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.VR_follow_section_address {
+    color: #5a7184;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.h-line {
+    background-color: #5a7184;
+    width: 92%;
+}
+
+.VR_follow_section_contact {
+    color: #5a7184;
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.vr-follow-sectio-sub-contact {
+    color: #959ead;
+    font-size: 25px;
+    font-family: "Roboto";
+}
